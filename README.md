@@ -17,6 +17,8 @@ This project introduces a highly efficient, two-stage Computer Vision pipeline d
 
 Instead of processing every single vehicle for license plate numbers (which is computationally expensive), the system first checks for compliance. It evaluates an input image to detect if a rider is wearing a helmet. If the rider is compliant, the system simply logs the event and moves on. However, if a traffic violation is detected (i.e., the rider is not wearing a helmet), the system automatically triggers a secondary pipeline to locate the motorcycle's license plate, crop it, and extract the registration number.
 
+![pipeline_flowchart](pipeline_flowchart.jpg)
+
 ## Technical Architecture
 The project leverages state-of-the-art computer vision libraries and models:
 
