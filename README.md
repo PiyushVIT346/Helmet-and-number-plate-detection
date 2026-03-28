@@ -45,6 +45,39 @@ This repository contains two distinct versions of the pipeline to demonstrate it
 
 ![flowchart](flowchart.jpg)
 
+| **Feature** | **main Branch (final_project.py)** | **version-2 Branch (final_project2.py)** |
+| :--- | :--- | :--- |
+| **Pipeline** | Direct YOLO -> EasyOCR | Enhanced Preprocessing -> EasyOCR |
+| **Key Technique** | Foundational | Advanced Image Preprocessing (Scaling, Blur, Otsu's) |
+| **Input Quality** | High-quality, clear images | Low-res, noisy, shadowed images |
+| **Result** | Base Performance | Maximized Accuracy (Significantly Improved) |
+
+To switch between your branches locally, open your terminal (or command prompt) inside your project folder and use the following Git commands.
+
+You can add this quick guide to your README as well, or just use it for your own workflow!
+
+1. Check your current branch
+To see which branch you are currently working on, run:
+
+```Bash
+git branch
+```
+(The branch with an asterisk * next to it is your active branch).
+
+2. Switch to the version-2 branch
+To switch over to your enhanced pipeline, run:
+
+```Bash
+git checkout version-2
+```
+
+3. Switch back to the main branch
+When you want to go back to your foundational architecture, run:
+
+```Bash
+git checkout main
+```
+
 ---
 
 ## 🛠️ Environment Setup & Installation
