@@ -43,6 +43,8 @@ This repository contains two distinct versions of the pipeline to demonstrate it
 * **`main` Branch (`final_project.py`)  :** The foundational architecture. It connects the YOLO object detection directly to standard EasyOCR reading. Best for high-quality, clear images.
 * **`version-2` Branch (`final_project2.py`)  :** The enhanced accuracy pipeline. This version applies advanced image preprocessing techniques (scaling, Gaussian blur, and Otsu's binarization thresholding) to the cropped license plate *before* passing it to EasyOCR. This significantly improves text recognition accuracy on low-resolution, noisy, or shadowed license plates.
 
+![flowchart](flowchart.jpg)
+
 ---
 
 ## 🛠️ Environment Setup & Installation
@@ -78,6 +80,9 @@ python final_project.py -i "image_try.jpg" -o "final_output1.jpg"
 ```
 
 ---
+### Output in terminal
+![Output](terminal_output.jpg)
+
 
 ### 📂 Project Directory Structure
 
