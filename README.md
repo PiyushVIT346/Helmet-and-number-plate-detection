@@ -7,7 +7,7 @@
 
 | Original Image | Detected Output |
 | :---: | :---: |
-| ![Original](image4.jpg) | ![Output](final_output4.jpg) |
+| ![Original](input_image1.jpg) | ![Output](final_output4.jpg) |
 
 ## Background and Motivation of this project  
 With the rapid increase in the number of two-wheeled vehicles on the road, traffic rule violations—particularly riding without a helmet—have become a major contributor to severe road accidents and fatalities. While traffic authorities mandate the use of helmets, manual monitoring and enforcement at a large scale are highly inefficient, labor-intensive, and prone to human error. There is a critical need for an automated, intelligent system capable of monitoring traffic, identifying violators, and extracting their vehicle information for penalization without requiring constant human oversight.
